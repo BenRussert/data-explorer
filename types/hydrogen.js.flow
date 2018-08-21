@@ -1,8 +1,6 @@
 /* @flow */
-export type HydrogenResultsCallback = (
-  message: any,
-  channel: "shell" | "iopub" | "stdin"
-) => void;
+
+export type HydrogenResultsCallback = (message: any, channel: Channel) => void;
 
 export interface HydrogenKernelMiddlewareThunk {
   +interrupt: () => void;
@@ -41,3 +39,17 @@ export interface HydrogenKernelMiddleware {
     onResults: HydrogenResultsCallback
   ) => void;
 }
+
+export type HydrogenKernel = {
+  language: string,
+  displayName: string,
+  addMiddleware: HydrogenKernelMiddleware => void,
+  onDidDestroy(callback: () => void): void,
+  getConnectionFile(): ?string
+};
+
+export type Hydrogen = {
+  onDidChangeKernel(callback: (kernel: ?HydrogenKernel) => void): void,
+  getActiveKernel(): HydrogenKernel,
+  getCellRange(): atom$Range
+};

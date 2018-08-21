@@ -13,7 +13,7 @@
   "consumedServices": {
     "hydrogen.provider": {
       "versions": {
-        "^1.0.0": "consumeHydrogen"
+        "^1.2.0": "consumeHydrogen"
       }
     }
   },
@@ -25,7 +25,9 @@
   "scripts": {
     "prettier": "prettier --write 'lib/**/*.js' 'spec/**/*.js'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
   "package-deps": [
     "hydrogen"
   ],
