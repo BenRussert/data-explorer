@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        { "label": "Hydrogen: Data Explorer" },
+        {
+          "submenu": [
+            {
+              "label": "Enable Data Explorer",
+              "command": "hydrogen-data-explorer:enable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

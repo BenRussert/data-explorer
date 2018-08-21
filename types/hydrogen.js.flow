@@ -1,0 +1,43 @@
+/* @flow */
+export type HydrogenResultsCallback = (
+  message: any,
+  channel: "shell" | "iopub" | "stdin"
+) => void;
+
+export interface HydrogenKernelMiddlewareThunk {
+  +interrupt: () => void;
+  +shutdown: () => void;
+  +restart: (onRestarted: ?Function) => void;
+  +execute: (code: string, onResults: HydrogenResultsCallback) => void;
+  +complete: (code: string, onResults: HydrogenResultsCallback) => void;
+  +inspect: (
+    code: string,
+    cursorPos: number,
+    onResults: HydrogenResultsCallback
+  ) => void;
+}
+
+export interface HydrogenKernelMiddleware {
+  +interrupt?: (next: HydrogenKernelMiddlewareThunk) => void;
+  +shutdown?: (next: HydrogenKernelMiddlewareThunk) => void;
+  +restart?: (
+    next: HydrogenKernelMiddlewareThunk,
+    onRestarted: ?Function
+  ) => void;
+  +execute?: (
+    next: HydrogenKernelMiddlewareThunk,
+    code: string,
+    onResults: HydrogenResultsCallback
+  ) => void;
+  +complete?: (
+    next: HydrogenKernelMiddlewareThunk,
+    code: string,
+    onResults: HydrogenResultsCallback
+  ) => void;
+  +inspect?: (
+    next: HydrogenKernelMiddlewareThunk,
+    code: string,
+    cursorPos: number,
+    onResults: HydrogenResultsCallback
+  ) => void;
+}

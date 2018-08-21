@@ -1,0 +1,36 @@
+{
+  "name": "hydrogen-data-explorer",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Automatic data visualization with the nteract data-explorer",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "nteract",
+    "pandas",
+    "data"
+  ],
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^1.0.0": "consumeHydrogen"
+      }
+    }
+  },
+  "repository": "https://github.com/benrussert/hydrogen-data-explorer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write 'lib/**/*.js' 'spec/**/*.js'"
+  },
+  "dependencies": {},
+  "package-deps": [
+    "hydrogen"
+  ],
+  "devDependencies": {
+    "flow-bin": "^0.79.1",
+    "prettier": "^1.13.5"
+  }
+}
