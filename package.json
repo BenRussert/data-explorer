@@ -32,7 +32,9 @@
     "hydrogen"
   ],
   "devDependencies": {
+    "atom-jasmine3-test-runner": "^4.0.0",
     "flow-bin": "^0.79.1",
     "prettier": "^1.13.5"
-  }
+  },
+  "atomTestRunner": "atom-jasmine3-test-runner"
 }
