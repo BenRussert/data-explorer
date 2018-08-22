@@ -1310,6 +1310,7 @@ declare class atom$Workspace {
   // Pane Containers
   getPaneContainers(): Array<atom$AbstractPaneContainer>,
   paneContainerForItem(item: ?mixed): ?atom$AbstractPaneContainer,
+  paneContainerForURI(uri: string): ?atom$Dock | ?atom$WorkspaceCenter,
 
   // Pane Items
   getPaneItems(): Array<Object>,
