@@ -23,7 +23,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "prettier": "prettier --write 'lib/**/*.js' 'spec/**/*.js'"
+    "prettier": "prettier --write 'lib/**/*.js' 'spec/**/*.js'",
+    "flow": "flow"
   },
   "dependencies": {
     "lodash": "^4.17.10"
