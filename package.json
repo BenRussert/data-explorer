@@ -27,7 +27,11 @@
     "flow": "flow"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "@nteract/transform-dataresource": "^4.3.2",
+    "lodash": "^4.17.10",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-jsx": "^3.0.2"
   },
   "package-deps": [
     "hydrogen"

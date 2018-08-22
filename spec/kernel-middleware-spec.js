@@ -1,6 +1,7 @@
 "use babel";
 
-import { MEDIATYPE, Middleware } from "../lib/kernel-middleware";
+import { Middleware } from "../lib/kernel-middleware";
+
 import { executeResultMessage } from "./helpers";
 
 describe("Middleware", () => {
