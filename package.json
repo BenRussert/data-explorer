@@ -17,7 +17,7 @@
       }
     }
   },
-  "repository": "https://github.com/benrussert/hydrogen-data-explorer",
+  "repository": "git@github.com:BenRussert/hydrogen-data-explorer.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
