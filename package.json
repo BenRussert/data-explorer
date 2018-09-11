@@ -1,7 +1,7 @@
 {
   "name": "data-explorer",
   "main": "./lib/main",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Automatic data visualization with the nteract data-explorer",
   "keywords": [
     "hydrogen",
