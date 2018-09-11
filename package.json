@@ -27,6 +27,7 @@
     "flow": "flow"
   },
   "dependencies": {
+    "@babel/runtime-corejs2": "^7.0.0",
     "@nteract/transform-dataresource": "^4.3.2",
     "lodash": "^4.17.10",
     "react": "^16.4.2",
