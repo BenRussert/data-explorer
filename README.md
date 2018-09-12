@@ -16,6 +16,13 @@ As this package has some open issues with styling, the following atom themes are
 
 ## How to try it out:
 
+Atom packages:
+
+- Install both hydrogen and the data-explorer package in atom, or in the cli:
+    ```bash
+    apm install hydrogen data-explorer
+    ```
+
 Make sure you have installed:
 
 - python, along with the [pandas data analysis library](http://pandas.pydata.org/pandas-docs/stable/install.html)
