@@ -1,0 +1,4 @@
+'.source.python':
+  'pd.options.display.html.table_schema':
+    'prefix': 'dx'
+    'body': 'pd.options.display.html.table_schema = True\npd.options.display.max_rows = None\n'
