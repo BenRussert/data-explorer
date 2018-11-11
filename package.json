@@ -17,7 +17,7 @@
       }
     }
   },
-  "repository": "https://github.com/BenRussert/data-explorer.git",
+  "repository": "git@github.com:benrussert/data-explorer.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
