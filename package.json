@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.0.0",
-    "@nteract/transform-dataresource": "^5.0.0-alpha.0",
+    "@nteract/transform-dataresource": "^5.0.4-alpha.0",
     "lodash": "^4.17.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
