@@ -1,0 +1,9 @@
+
+:root {
+/* From @nteract/presentational-components:  Light theme for now */
+
+--cm-background: --cm-background: #111;
+--theme-app-bg: white;
+--theme-app-fg: var(--nt-color-midnight);
+
+}
