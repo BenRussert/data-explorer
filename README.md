@@ -4,7 +4,7 @@ Interactively explore your data directly in [atom](https://atom.io/) with [hydro
 
 The [nteract data-explorer](https://blog.nteract.io/designing-the-nteract-data-explorer-f4476d53f897) provides automatic data visualization, so you can get a feel for your data quickly and with minimal code!
 
-![nteract data explorer in hydrogen](https://media.giphy.com/media/2sdkkttRWYG4Gf9BB9/giphy.gif)
+![nteract data explorer in hydrogen](https://media.giphy.com/media/1xpCUhCN7haXAHXb6g/giphy.gif)
 
 :construction: This is a work in progress. Please open issues and pull requests!
 
