@@ -29,6 +29,7 @@
   "dependencies": {
     "@babel/runtime-corejs2": "^7.0.0",
     "@nteract/data-explorer": "^6.0.2",
+    "@nteract/outputs": "^2.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "styled-jsx": "^3.0.2"
@@ -38,6 +39,8 @@
   ],
   "devDependencies": {
     "atom-jasmine3-test-runner": "^4.0.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
     "flow-bin": "^0.79.1",
     "prettier": "^1.13.5"
   },
