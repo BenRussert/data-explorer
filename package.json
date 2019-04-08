@@ -30,8 +30,7 @@
     "@babel/runtime-corejs2": "^7.0.0",
     "@nteract/data-explorer": "^6.1.0",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "styled-jsx": "^3.0.2"
+    "react-dom": "^16.4.2"
   },
   "package-deps": [
     "hydrogen"
